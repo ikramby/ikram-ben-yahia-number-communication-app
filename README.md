@@ -34,8 +34,8 @@ NumCom is a full-stack Next.js application designed for building and managing co
    ```
 3. Set up environment variables:
    Create a `.env` file with the following variables found in your Supabase dashboard:
-   - `NEXT_PUBLIC_SUPABASE_URL`
-   - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+   - `NEXT_PUBLIC_SUPABASE_URL= =https://jcaibnyhrdixcynbamlb.supabase.co`
+   - `NEXT_PUBLIC_SUPABASE_ANON_KEY = sb_publishable_h5hjOmwbl3Dc8kldc1kzKg_ysifuXl1`
    - `SUPABASE_SERVICE_ROLE_KEY`
 
 4. Run the development server:
@@ -54,3 +54,7 @@ The database schema is managed via SQL scripts located in the `/scripts` folder.
 - `lib/`: Supabase client and utility functions.
 - `scripts/`: SQL migration and seeding scripts.
 - `public/`: Static assets and images.
+
+create .env
+NEXT_PUBLIC_SUPABASE_URL=https://jcaibnyhrdixcynbamlb.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=sb_publishable_h5hjOmwbl3Dc8kldc1kzKg_ysifuXl1
